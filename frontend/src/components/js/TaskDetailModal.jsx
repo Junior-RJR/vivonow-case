@@ -59,7 +59,7 @@ const TaskDetailModal = ({ task, columns, onClose, onEdit, onAddComment }) => {
               <div className="task-detail-meta-label">Responsável</div>
               <div className="task-detail-meta-value">
                 <div className="task-card-avatar">{task.assigneeInitial}</div>
-                {task.assignee}
+                {task.assignee?.name}
               </div>
             </div>
 
