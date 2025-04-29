@@ -11,24 +11,6 @@ VivoNow é um sistema de gestão de tarefas por equipes, com interface moderna e
 - **Axios**: Cliente HTTP para requisições à API
 - **LocalStorage**: Para armazenamento de dados de autenticação
 
-## Estrutura do Projeto
-
-\`\`\`
-frontend/
-├── public/
-│   ├── assets/              # Imagens e recursos estáticos
-│   ├── favicon.ico          # Ícone da aplicação
-│   ├── index.html           # Arquivo HTML principal
-│   └── manifest.json        # Manifesto para PWA
-├── src/
-│   ├── components/
-│   │   ├── css/             # Arquivos de estilo
-│   │   └── js/              # Componentes React
-│   ├── App.jsx              # Componente principal com rotas
-│   └── index.jsx            # Ponto de entrada da aplicação
-└── package.json             # Dependências e scripts
-\`\`\`
-
 ## Funcionalidades Principais
 
 - **Autenticação**: Sistema de login e registro de usuários
@@ -49,7 +31,7 @@ frontend/
 
 1. Clone o repositório:
    bash
-   git clone https://github.com/seu-usuario/vivonow.git
+   git clone https://github.com/Junior-RJR/vivonow-case
    cd vivonow/frontend
    
 
@@ -97,6 +79,10 @@ frontend/
 2. Após autenticação bem-sucedida, o token JWT é armazenado no localStorage
 3. O token é enviado em todas as requisições subsequentes
 4. Rotas protegidas verificam a existência e validade do token
+
+
+
+
 
 ## Integração com Backend
 
