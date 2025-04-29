@@ -126,7 +126,7 @@ O sistema é inicializado com os seguintes usuários para testes:
    - Equipe: Desenvolvimento
 
 2. **Usuário Regular**:
-   - Email: joao.silva@vivo.com.br
+   - Email: rebeca.monteiro@vivo.com.br
    - Senha: vivo123
    - Papel: USER
    - Equipe: Desenvolvimento

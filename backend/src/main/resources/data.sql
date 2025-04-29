@@ -7,10 +7,10 @@ INSERT INTO users (id, name, email, password, team_id, role)
 VALUES (1, 'Rogério Junior', 'rogeriojunior@vivo.com.br', '$2a$10$3JUw.hHt.CRYbxspTFkKQOQeTSoQNvYVA5HFUAMhTJtYxV9f6jnDK', 1, 'ADMIN');
 
 INSERT INTO users (id, name, email, password, team_id, role) 
-VALUES (2, 'João Silva', 'joao.silva@vivo.com.br', '$2a$10$3JUw.hHt.CRYbxspTFkKQOQeTSoQNvYVA5HFUAMhTJtYxV9f6jnDK', 1, 'USER');
+VALUES (2, 'Rebeca Monteiro', 'rebeca.monteiro@vivo.com.br', '$2a$10$3JUw.hHt.CRYbxspTFkKQOQeTSoQNvYVA5HFUAMhTJtYxV9f6jnDK', 1, 'USER');
 
 INSERT INTO users (id, name, email, password, team_id, role) 
-VALUES (3, 'Maria Souza', 'maria.souza@vivo.com.br', '$2a$10$3JUw.hHt.CRYbxspTFkKQOQeTSoQNvYVA5HFUAMhTJtYxV9f6jnDK', 1, 'USER');
+VALUES (3, 'Raphaela Toledo', 'raphaela.toledo@vivo.com.br', '$2a$10$3JUw.hHt.CRYbxspTFkKQOQeTSoQNvYVA5HFUAMhTJtYxV9f6jnDK', 3, 'ADMIN');
 
 INSERT INTO users (id, name, email, password, team_id, role) 
 VALUES (4, 'Pedro Santos', 'pedro.santos@vivo.com.br', '$2a$10$3JUw.hHt.CRYbxspTFkKQOQeTSoQNvYVA5HFUAMhTJtYxV9f6jnDK', 1, 'USER');
